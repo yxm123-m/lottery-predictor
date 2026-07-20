@@ -84,14 +84,20 @@ def update_lottery_logic(dlt_data, ssq_data):
 
     # 更新大乐透数据
     dlt_start = content.find('    "大乐透": [')
-    dlt_end = content.find('    ],', dlt_start) + 4
-    new_dlt = f'    "大乐透": [\n{generate_data_code("大乐透", dlt_data)}\n    ],'
+    # 找到大乐透数据块结束位置：下一行以 "双色球" 开头
+    ssq_marker = '    "双色球": ['
+    dlt_end = content.find(ssq_marker, dlt_start)
+    # 往前找到 ],\n
+    dlt_end = content.rfind('],', dlt_start, dlt_end) + 2
+    new_dlt = f'    "大乐透": [\n{generate_data_code("大乐透", dlt_data)}\n    ],\n'
     content = content[:dlt_start] + new_dlt + content[dlt_end:]
 
     # 更新双色球数据
-    ssq_start = content.find('    "双色球": [')
-    ssq_end = content.find('    ],', ssq_start) + 4
-    new_ssq = f'    "双色球": [\n{generate_data_code("双色球", ssq_data)}\n    ],'
+    ssq_start = content.find(ssq_marker)
+    # 找到双色球数据块结束位置：REAL_HISTORY 字典的结束 }
+    real_history_end = content.find('\n}\n', ssq_start)
+    ssq_end = content.rfind('],', ssq_start, real_history_end) + 2
+    new_ssq = f'    "双色球": [\n{generate_data_code("双色球", ssq_data)}\n    ],\n'
     content = content[:ssq_start] + new_ssq + content[ssq_end:]
 
     with open(file_path, 'w', encoding='utf-8') as f:
