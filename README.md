@@ -1,4 +1,15 @@
-# 🎱 彩票预测助手
+---
+title: Lottery Predictor
+emoji: 🎳
+colorFrom: red
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.28.0
+app_file: app.py
+pinned: false
+---
+
+# 🎳 彩票预测助手
 
 基于统计学分析的彩票号码预测工具，支持 **体彩大乐透** 和 **福彩双色球**。
 
@@ -8,10 +19,6 @@
 - 📊 历史号码频率统计
 - ⏳ 号码遗漏分析
 - 🎨 精美号码球展示
-
-## 在线使用
-
-👉 [点击访问在线版本](https://your-app-url.streamlit.app)
 
 ## 本地运行
 
