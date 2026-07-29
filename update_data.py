@@ -1,1 +1,221 @@
-IiIiCuW9qeelqOaVsOaNruiHquWKqOabtOaWsOiEmuacrArku47lrpjmlrnnvZHnq5nmipPlj5bmnIDmlrDlvIDlpZbmlbDmja7lubbmm7TmlrAgbG90dGVyeV9sb2dpYy5weQoiIiIKCmltcG9ydCB1cmxsaWIucmVxdWVzdAppbXBvcnQganNvbgppbXBvcnQgcmUKaW1wb3J0IG9zCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCgoKZGVmIGZldGNoX2RsdF9kYXRhKGNvdW50PTEwMCk6CiAgICAiIiLojrflj5blpKfkuZDpgI/mlbDmja7vvIjku441MDDlvannpajnvZHvvIkiIiIKICAgIHVybCA9IGYiaHR0cHM6Ly9kYXRhY2hhcnQuNTAwLmNvbS9kbHQvaGlzdG9yeS9uZXdpbmMvaGlzdG9yeS5waHA/c3RhcnQ9MjYwMDEmZW5kPTI2MjAwIgogICAgaGVhZGVycyA9IHsnVXNlci1BZ2VudCc6ICdNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYnfQoKICAgIHJlcSA9IHVybGxpYi5yZXF1ZXN0LlJlcXVlc3QodXJsLCBoZWFkZXJzPWhlYWRlcnMpCiAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxLCB0aW1lb3V0PTE1KSBhcyByZXNwb25zZToKICAgICAgICBodG1sID0gcmVzcG9uc2UucmVhZCgpLmRlY29kZSgndXRmLTgnLCBlcnJvcnM9J2lnbm9yZScpCgogICAgdGJvZHlfbWF0Y2ggPSByZS5zZWFyY2gocic8dGJvZHlbXj5dKj4oLio/KTwvdGJvZHk+JywgaHRtbCwgcmUuRE9UQUxMKQogICAgaWYgbm90IHRib2R5X21hdGNoOgogICAgICAgIHJldHVybiBbXQoKICAgIHJvd3MgPSByZS5maW5kYWxsKHInPHRyW14+XSo+KC4qPyk8L3RyPicsIHRib2R5X21hdGNoLmdyb3VwKDEpLCByZS5ET1RBTEwpCgogICAgZGx0X2RhdGEgPSBbXQogICAgZm9yIHJvdyBpbiByb3dzOgogICAgICAgIGNlbGxzID0gcmUuZmluZGFsbChyJzx0ZFtePl0qPiguKj8pPC90ZD4nLCByb3csIHJlLkRPVEFMTCkKICAgICAgICBpZiBsZW4oY2VsbHMpID49IDk6CiAgICAgICAgICAgIGNlbGxfdGV4dCA9IFtyZS5zdWIocic8W14+XSs+JywgJycsIGMpLnN0cmlwKCkgZm9yIGMgaW4gY2VsbHNdCiAgICAgICAgICAgIGlzc3VlID0gY2VsbF90ZXh0WzFdCiAgICAgICAgICAgIGlmIGlzc3VlLnN0YXJ0c3dpdGgoJzI2Jyk6CiAgICAgICAgICAgICAgICBmcm9udCA9IHNvcnRlZChbaW50KGNlbGxfdGV4dFsyXSksIGludChjZWxsX3RleHRbM10pLCBpbnQoY2VsbF90ZXh0WzRdKSwgaW50KGNlbGxfdGV4dFs1XSksIGludChjZWxsX3RleHRbNl0pXSkKICAgICAgICAgICAgICAgIGJhY2sgPSBzb3J0ZWQoW2ludChjZWxsX3RleHRbN10pLCBpbnQoY2VsbF90ZXh0WzhdKV0pCiAgICAgICAgICAgICAgICBkbHRfZGF0YS5hcHBlbmQoewogICAgICAgICAgICAgICAgICAgICdpc3N1ZSc6IGlzc3VlWy0zOl0sCiAgICAgICAgICAgICAgICAgICAgJ2Zyb250JzogZnJvbnQsCiAgICAgICAgICAgICAgICAgICAgJ2JhY2snOiBiYWNrCiAgICAgICAgICAgICAgICB9KQoKICAgIHJldHVybiBkbHRfZGF0YQoKCmRlZiBmZXRjaF9zc3FfZGF0YShjb3VudD0xMDApOgogICAgIiIi6I635Y+W5Y+M6Imy55CD5pWw5o2u77yI5LuO5Lit5Zu956aP5b2p5a6Y572R77yJIiIiCiAgICB1cmwgPSBmImh0dHBzOi8vd3d3LmN3bC5nb3YuY24vY3dsX2FkbWluL2Zyb250L2N3bGtqL3NlYXJjaC9ranh4L2ZpbmREcmF3Tm90aWNlP25hbWU9c3NxJmlzc3VlQ291bnQ9e2NvdW50fSIKICAgIGhlYWRlcnMgPSB7CiAgICAgICAgJ1VzZXItQWdlbnQnOiAnTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzMS4wLjAuMCBTYWZhcmkvNTM3LjM2JywKICAgICAgICAnUmVmZXJlcic6ICdodHRwczovL3d3dy5jd2wuZ292LmNuL3lna2ovd3FramdnL3NzcS8nLAogICAgICAgICdBY2NlcHQnOiAnYXBwbGljYXRpb24vanNvbiwgdGV4dC9qYXZhc2NyaXB0LCAqLyo7IHE9MC4wMScsCiAgICAgICAgJ0FjY2VwdC1MYW5ndWFnZSc6ICd6aC1DTix6aDtxPTAuOSxlbjtxPTAuOCcsCiAgICAgICAgJ1gtUmVxdWVzdGVkLVdpdGgnOiAnWE1MSHR0cFJlcXVlc3QnLAogICAgfQoKICAgIHJlcSA9IHVybGxpYi5yZXF1ZXN0LlJlcXVlc3QodXJsLCBoZWFkZXJzPWhlYWRlcnMpCiAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxLCB0aW1lb3V0PTE1KSBhcyByZXNwb25zZToKICAgICAgICBkYXRhID0ganNvbi5sb2FkcyhyZXNwb25zZS5yZWFkKCkuZGVjb2RlKCd1dGYtOCcpKQoKICAgIHNzcV9kYXRhID0gW10KICAgIGZvciBpdGVtIGluIGRhdGFbJ3Jlc3VsdCddOgogICAgICAgIGlmIGl0ZW1bJ2NvZGUnXS5zdGFydHN3aXRoKCcyMDI2Jyk6CiAgICAgICAgICAgIHJlZCA9IFtpbnQoeCkgZm9yIHggaW4gaXRlbVsncmVkJ10uc3BsaXQoJywnKV0KICAgICAgICAgICAgYmx1ZSA9IGludChpdGVtWydibHVlJ10pCiAgICAgICAgICAgIGlzc3VlID0gaXRlbVsnY29kZSddWy0zOl0KICAgICAgICAgICAgc3NxX2RhdGEuYXBwZW5kKHsKICAgICAgICAgICAgICAgICdpc3N1ZSc6IGlzc3VlLAogICAgICAgICAgICAgICAgJ2Zyb250Jzogc29ydGVkKHJlZCksCiAgICAgICAgICAgICAgICAnYmFjayc6IFtibHVlXQogICAgICAgICAgICB9KQoKICAgIHJldHVybiBzc3FfZGF0YQoKCmRlZiBnZW5lcmF0ZV9kYXRhX2NvZGUobG90dGVyeV90eXBlLCBkYXRhKToKICAgICIiIueUn+aIkFB5dGhvbuaVsOaNruS7o+eggSIiIgogICAgbGluZXMgPSBbZicgICAgICAgICMgMjAyNuW5tOecn+WunuW8gOWlluaVsOaNru+8iOabtOaWsOS6jiB7ZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZLSVtLSVkIil977yJJ10KICAgIGZvciBkIGluIGRhdGE6CiAgICAgICAgbGluZXMuYXBwZW5kKGYnICAgICAgICB7eyJpc3N1ZSI6ICJ7ZFsiaXNzdWUiXX0iLCAiZnJvbnQiOiB7ZFsiZnJvbnQiXX0sICJiYWNrIjoge2RbImJhY2siXX19fSwnKQogICAgcmV0dXJuICdcbicuam9pbihsaW5lcykKCgpkZWYgdXBkYXRlX2xvdHRlcnlfbG9naWMoZGx0X2RhdGEsIHNzcV9kYXRhKToKICAgICIiIuabtOaWsCBsb3R0ZXJ5X2xvZ2ljLnB5IOaWh+S7tiIiIgogICAgZmlsZV9wYXRoID0gb3MucGF0aC5qb2luKG9zLnBhdGguZGlybmFtZShfX2ZpbGVfXyksICdsb3R0ZXJ5X2xvZ2ljLnB5JykKCiAgICB3aXRoIG9wZW4oZmlsZV9wYXRoLCAncicsIGVuY29kaW5nPSd1dGYtOCcpIGFzIGY6CiAgICAgICAgY29udGVudCA9IGYucmVhZCgpCgogICAgIyDmm7TmlrDlpKfkuZDpgI/mlbDmja4KICAgIGlmIGRsdF9kYXRhOgogICAgICAgIGRsdF9zdGFydCA9IGNvbnRlbnQuZmluZCgnICAgICLlpKfkuZDpgI8iOiBbJykKICAgICAgICBzc3FfbWFya2VyID0gJyAgICAi5Y+M6Imy55CDIjogWycKICAgICAgICBkbHRfZW5kID0gY29udGVudC5maW5kKHNzcV9tYXJrZXIsIGRsdF9zdGFydCkKICAgICAgICBkbHRfZW5kID0gY29udGVudC5yZmluZCgnXSwnLCBkbHRfc3RhcnQsIGRsdF9lbmQpICsgMgogICAgICAgIG5ld19kbHQgPSBmJyAgICAi5aSn5LmQ6YCPIjogW1xue2dlbmVyYXRlX2RhdGFfY29kZSgi5aSn5LmQ6YCPIiwgZGx0X2RhdGEpfVxuICAgIF0sXG4nCiAgICAgICAgY29udGVudCA9IGNvbnRlbnRbOmRsdF9zdGFydF0gKyBuZXdfZGx0ICsgY29udGVudFtkbHRfZW5kOl0KCiAgICAjIOabtOaWsOWPjOiJsueQg+aVsOaNrgogICAgaWYgc3NxX2RhdGE6CiAgICAgICAgc3NxX21hcmtlciA9ICcgICAgIuWPjOiJsueQgyI6IFsnCiAgICAgICAgc3NxX3N0YXJ0ID0gY29udGVudC5maW5kKHNzcV9tYXJrZXIpCiAgICAgICAgcmVhbF9oaXN0b3J5X2VuZCA9IGNvbnRlbnQuZmluZCgnXG59XG4nLCBzc3Ffc3RhcnQpCiAgICAgICAgc3NxX2VuZCA9IGNvbnRlbnQucmZpbmQoJ10sJywgc3NxX3N0YXJ0LCByZWFsX2hpc3RvcnlfZW5kKSArIDIKICAgICAgICBuZXdfc3NxID0gZicgICAgIuWPjOiJsueQgyI6IFtcbntnZW5lcmF0ZV9kYXRhX2NvZGUoIuWPjOiJsueQgyIsIHNzcV9kYXRhKX1cbiAgICBdLFxuJwogICAgICAgIGNvbnRlbnQgPSBjb250ZW50Wzpzc3Ffc3RhcnRdICsgbmV3X3NzcSArIGNvbnRlbnRbc3NxX2VuZDpdCgogICAgd2l0aCBvcGVuKGZpbGVfcGF0aCwgJ3cnLCBlbmNvZGluZz0ndXRmLTgnKSBhcyBmOgogICAgICAgIGYud3JpdGUoY29udGVudCkKCiAgICByZXR1cm4gVHJ1ZQoKCmRlZiBwdXNoX3RvX2dpdGh1YigpOgogICAgIiIi5o6o6YCB5YiwR2l0SHViIiIiCiAgICBpbXBvcnQgYmFzZTY0CiAgICBpbXBvcnQgdXJsbGliLnJlcXVlc3QKCiAgICAjIOiOt+WPliBHaXRIdWIgdG9rZW4KICAgIHRva2VuID0gb3MucG9wZW4oJ2doIGF1dGggdG9rZW4nKS5yZWFkKCkuc3RyaXAoKQogICAgcmVwbyA9ICd5eG0xMjMtbS9sb3R0ZXJ5LXByZWRpY3RvcicKICAgIGhlYWRlcnMgPSB7CiAgICAgICAgJ0F1dGhvcml6YXRpb24nOiBmJ3Rva2VuIHt0b2tlbn0nLAogICAgICAgICdBY2NlcHQnOiAnYXBwbGljYXRpb24vdm5kLmdpdGh1Yi52Mytqc29uJywKICAgICAgICAnVXNlci1BZ2VudCc6ICdsb3R0ZXJ5LXByZWRpY3Rvci11cGRhdGVyJwogICAgfQoKICAgIGRlZiBhcGlfY2FsbChlbmRwb2ludCwgbWV0aG9kPSdHRVQnLCBkYXRhPU5vbmUpOgogICAgICAgIHVybCA9IGYnaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy97cmVwb30ve2VuZHBvaW50fScKICAgICAgICByZXFfZGF0YSA9IGpzb24uZHVtcHMoZGF0YSkuZW5jb2RlKCkgaWYgZGF0YSBlbHNlIE5vbmUKICAgICAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KHVybCwgZGF0YT1yZXFfZGF0YSwgaGVhZGVycz1oZWFkZXJzLCBtZXRob2Q9bWV0aG9kKQogICAgICAgIHdpdGggdXJsbGliLnJlcXVlc3QudXJsb3BlbihyZXEsIHRpbWVvdXQ9MzApIGFzIHJlc3A6CiAgICAgICAgICAgIHJldHVybiBqc29uLmxvYWRzKHJlc3AucmVhZCgpKQoKICAgICMg6K+75Y+W5paH5Lu2CiAgICBmaWxlX3BhdGggPSBvcy5wYXRoLmpvaW4ob3MucGF0aC5kaXJuYW1lKF9fZmlsZV9fKSwgJ2xvdHRlcnlfbG9naWMucHknKQogICAgd2l0aCBvcGVuKGZpbGVfcGF0aCwgJ3JiJykgYXMgZjoKICAgICAgICBjb250ZW50ID0gYmFzZTY0LmI2NGVuY29kZShmLnJlYWQoKSkuZGVjb2RlKCkKCiAgICAjIOiOt+WPluW9k+WJjeeKtuaAgQogICAgcmVmID0gYXBpX2NhbGwoJ2dpdC9yZWZzL2hlYWRzL21hc3RlcicpCiAgICBwYXJlbnRfc2hhID0gcmVmWydvYmplY3QnXVsnc2hhJ10KICAgIGNvbW1pdCA9IGFwaV9jYWxsKGYnZ2l0L2NvbW1pdHMve3BhcmVudF9zaGF9JykKICAgIHRyZWVfc2hhID0gY29tbWl0Wyd0cmVlJ11bJ3NoYSddCgogICAgIyDliJvlu7ogYmxvYgogICAgYmxvYiA9IGFwaV9jYWxsKCdnaXQvYmxvYnMnLCAnUE9TVCcsIHsnZW5jb2RpbmcnOiAnYmFzZTY0JywgJ2NvbnRlbnQnOiBjb250ZW50fSkKICAgIGJsb2Jfc2hhID0gYmxvYlsnc2hhJ10KCiAgICAjIOWIm+W7uiB0cmVlCiAgICB0cmVlX2RhdGEgPSB7CiAgICAgICAgImJhc2VfdHJlZSI6IHRyZWVfc2hhLAogICAgICAgICJ0cmVlIjogW3sicGF0aCI6ICJsb3R0ZXJ5X2xvZ2ljLnB5IiwgIm1vZGUiOiAiMTAwNjQ0IiwgInR5cGUiOiAiYmxvYiIsICJzaGEiOiBibG9iX3NoYX1dCiAgICB9CiAgICBuZXdfdHJlZSA9IGFwaV9jYWxsKCdnaXQvdHJlZXMnLCAnUE9TVCcsIHRyZWVfZGF0YSkKCiAgICAjIOWIm+W7uiBjb21taXQKICAgIHRvZGF5ID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZLSVtLSVkIikKICAgIGNvbW1pdF9kYXRhID0gewogICAgICAgICJtZXNzYWdlIjogZiJkYXRhOiDmm7TmlrDlvIDlpZbmlbDmja7oh7Mge3RvZGF5fSIsCiAgICAgICAgInRyZWUiOiBuZXdfdHJlZVsnc2hhJ10sCiAgICAgICAgInBhcmVudHMiOiBbcGFyZW50X3NoYV0KICAgIH0KICAgIG5ld19jb21taXQgPSBhcGlfY2FsbCgnZ2l0L2NvbW1pdHMnLCAnUE9TVCcsIGNvbW1pdF9kYXRhKQoKICAgICMg5pu05pawIHJlZgogICAgcmVmX2RhdGEgPSB7InNoYSI6IG5ld19jb21taXRbJ3NoYSddLCAiZm9yY2UiOiBUcnVlfQogICAgcmVxID0gdXJsbGliLnJlcXVlc3QuUmVxdWVzdCgKICAgICAgICBmJ2h0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mve3JlcG99L2dpdC9yZWZzL2hlYWRzL21hc3RlcicsCiAgICAgICAgZGF0YT1qc29uLmR1bXBzKHJlZl9kYXRhKS5lbmNvZGUoKSwKICAgICAgICBoZWFkZXJzPWhlYWRlcnMsCiAgICAgICAgbWV0aG9kPSdQQVRDSCcKICAgICkKICAgIHdpdGggdXJsbGliLnJlcXVlc3QudXJsb3BlbihyZXEsIHRpbWVvdXQ9MzApIGFzIHJlc3A6CiAgICAgICAgcmV0dXJuIFRydWUKCgpkZWYgbWFpbigpOgogICAgIiIi5Li75Ye95pWwIiIiCiAgICBwcmludChmIltUSU1FXSDlvIDlp4vmm7TmlrDlvannpajmlbDmja4gLSB7ZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoJyVZLSVtLSVkICVIOiVNOiVTJyl9IikKCiAgICB0cnk6CiAgICAgICAgIyDojrflj5bmlbDmja4KICAgICAgICBwcmludCgiW0ZFVENIXSDmraPlnKjojrflj5blpKfkuZDpgI/mlbDmja4uLi4iKQogICAgICAgIGRsdF9kYXRhID0gZmV0Y2hfZGx0X2RhdGEoKQogICAgICAgIHByaW50KGYiICAg6I635Y+W5YiwIHtsZW4oZGx0X2RhdGEpfSDmnJ/mlbDmja4iKQoKICAgICAgICBwcmludCgiW0ZFVENIXSDmraPlnKjojrflj5blj4zoibLnkIPmlbDmja4uLi4iKQogICAgICAgIHNzcV9kYXRhID0gZmV0Y2hfc3NxX2RhdGEoKQogICAgICAgIHByaW50KGYiICAg6I635Y+W5YiwIHtsZW4oc3NxX2RhdGEpfSDmnJ/mlbDmja4iKQoKICAgICAgICBpZiBub3QgZGx0X2RhdGEgYW5kIG5vdCBzc3FfZGF0YToKICAgICAgICAgICAgcHJpbnQoIltFUlJPUl0g5omA5pyJ5pWw5o2u6I635Y+W5aSx6LSlIikKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgICAgIGlmIG5vdCBkbHRfZGF0YToKICAgICAgICAgICAgcHJpbnQoIltXQVJOXSDlpKfkuZDpgI/mlbDmja7ojrflj5blpLHotKXvvIzku4Xmm7TmlrDlj4zoibLnkIMiKQogICAgICAgIGlmIG5vdCBzc3FfZGF0YToKICAgICAgICAgICAgcHJpbnQoIltXQVJOXSDlj4zoibLnkIPmlbDmja7ojrflj5blpLHotKXvvIzku4Xmm7TmlrDlpKfkuZDpgI8iKQoKICAgICAgICAjIOabtOaWsOacrOWcsOaWh+S7tgogICAgICAgIHByaW50KCJbVVBEQVRFXSDmraPlnKjmm7TmlrDmnKzlnLDmlofku7YuLi4iKQogICAgICAgIHVwZGF0ZV9sb3R0ZXJ5X2xvZ2ljKGRsdF9kYXRhLCBzc3FfZGF0YSkKICAgICAgICBwcmludCgiICAg5pys5Zyw5paH5Lu25pu05paw5a6M5oiQIikKCiAgICAgICAgIyDmjqjpgIHliLBHaXRIdWIKICAgICAgICBwcmludCgiW1BVU0hdIOato+WcqOaOqOmAgeWIsEdpdEh1Yi4uLiIpCiAgICAgICAgcHVzaF90b19naXRodWIoKQogICAgICAgIHByaW50KCIgICBHaXRIdWLmjqjpgIHmiJDlip8iKQoKICAgICAgICBwcmludChmIltPS10g5pu05paw5a6M5oiQ77yB5aSn5LmQ6YCPOiB7bGVuKGRsdF9kYXRhKX3mnJ8sIOWPjOiJsueQgzoge2xlbihzc3FfZGF0YSl95pyfIikKICAgICAgICByZXR1cm4gVHJ1ZQoKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludChmIltFUlJPUl0g5pu05paw5aSx6LSlOiB7ZX0iKQogICAgICAgIHJldHVybiBGYWxzZQoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICBtYWluKCkK
+"""
+彩票数据自动更新脚本
+从官方网站抓取最新开奖数据并更新 lottery_logic.py
+"""
+
+import urllib.request
+import json
+import re
+import os
+from datetime import datetime
+
+
+def fetch_dlt_data(count=100):
+    """获取大乐透数据（从500彩票网）"""
+    url = f"https://datachart.500.com/dlt/history/newinc/history.php?start=26001&end=26200"
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=15) as response:
+        html = response.read().decode('utf-8', errors='ignore')
+
+    tbody_match = re.search(r'<tbody[^>]*>(.*?)</tbody>', html, re.DOTALL)
+    if not tbody_match:
+        return []
+
+    rows = re.findall(r'<tr[^>]*>(.*?)</tr>', tbody_match.group(1), re.DOTALL)
+
+    dlt_data = []
+    for row in rows:
+        cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.DOTALL)
+        if len(cells) >= 9:
+            cell_text = [re.sub(r'<[^>]+>', '', c).strip() for c in cells]
+            issue = cell_text[1]
+            if issue.startswith('26'):
+                front = sorted([int(cell_text[2]), int(cell_text[3]), int(cell_text[4]), int(cell_text[5]), int(cell_text[6])])
+                back = sorted([int(cell_text[7]), int(cell_text[8])])
+                dlt_data.append({
+                    'issue': issue[-3:],
+                    'front': front,
+                    'back': back
+                })
+
+    return dlt_data
+
+
+def fetch_ssq_data(count=100):
+    """获取双色球数据（从中国福彩官网）"""
+    url = f"https://www.cwl.gov.cn/cwl_admin/front/cwlkj/search/kjxx/findDrawNotice?name=ssq&issueCount={count}"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Referer': 'https://www.cwl.gov.cn/ygkj/wqkjgg/ssq/',
+        'Accept': 'application/json, text/javascript, */*; q=0.01',
+        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        'X-Requested-With': 'XMLHttpRequest',
+    }
+
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=15) as response:
+        data = json.loads(response.read().decode('utf-8'))
+
+    ssq_data = []
+    for item in data['result']:
+        if item['code'].startswith('2026'):
+            red = [int(x) for x in item['red'].split(',')]
+            blue = int(item['blue'])
+            issue = item['code'][-3:]
+            ssq_data.append({
+                'issue': issue,
+                'front': sorted(red),
+                'back': [blue]
+            })
+
+    return ssq_data
+
+
+def generate_data_code(lottery_type, data):
+    """生成Python数据代码"""
+    lines = [f'        # 2026年真实开奖数据（更新于 {datetime.now().strftime("%Y-%m-%d")}）']
+    for d in data:
+        lines.append(f'        {{"issue": "{d["issue"]}", "front": {d["front"]}, "back": {d["back"]}}},')
+    return '\n'.join(lines)
+
+
+def update_lottery_logic(dlt_data, ssq_data):
+    """更新 lottery_logic.py 文件"""
+    file_path = os.path.join(os.path.dirname(__file__), 'lottery_logic.py')
+
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # 更新大乐透数据
+    if dlt_data:
+        dlt_start = content.find('    "大乐透": [')
+        ssq_marker = '    "双色球": ['
+        dlt_end = content.find(ssq_marker, dlt_start)
+        dlt_end = content.rfind('],', dlt_start, dlt_end) + 2
+        new_dlt = f'    "大乐透": [\n{generate_data_code("大乐透", dlt_data)}\n    ],\n'
+        content = content[:dlt_start] + new_dlt + content[dlt_end:]
+
+    # 更新双色球数据
+    if ssq_data:
+        ssq_marker = '    "双色球": ['
+        ssq_start = content.find(ssq_marker)
+        real_history_end = content.find('\n}\n', ssq_start)
+        ssq_end = content.rfind('],', ssq_start, real_history_end) + 2
+        new_ssq = f'    "双色球": [\n{generate_data_code("双色球", ssq_data)}\n    ],\n'
+        content = content[:ssq_start] + new_ssq + content[ssq_end:]
+
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+    return True
+
+
+def push_to_github():
+    """推送到GitHub"""
+    import base64
+    import urllib.request
+
+    # 获取 GitHub token
+    token = os.popen('gh auth token').read().strip()
+    repo = 'yxm123-m/lottery-predictor'
+    headers = {
+        'Authorization': f'token {token}',
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'lottery-predictor-updater'
+    }
+
+    def api_call(endpoint, method='GET', data=None):
+        url = f'https://api.github.com/repos/{repo}/{endpoint}'
+        req_data = json.dumps(data).encode() if data else None
+        req = urllib.request.Request(url, data=req_data, headers=headers, method=method)
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read())
+
+    # 读取文件
+    file_path = os.path.join(os.path.dirname(__file__), 'lottery_logic.py')
+    with open(file_path, 'rb') as f:
+        content = base64.b64encode(f.read()).decode()
+
+    # 获取当前状态
+    ref = api_call('git/refs/heads/master')
+    parent_sha = ref['object']['sha']
+    commit = api_call(f'git/commits/{parent_sha}')
+    tree_sha = commit['tree']['sha']
+
+    # 创建 blob
+    blob = api_call('git/blobs', 'POST', {'encoding': 'base64', 'content': content})
+    blob_sha = blob['sha']
+
+    # 创建 tree
+    tree_data = {
+        "base_tree": tree_sha,
+        "tree": [{"path": "lottery_logic.py", "mode": "100644", "type": "blob", "sha": blob_sha}]
+    }
+    new_tree = api_call('git/trees', 'POST', tree_data)
+
+    # 创建 commit
+    today = datetime.now().strftime("%Y-%m-%d")
+    commit_data = {
+        "message": f"data: 更新开奖数据至 {today}",
+        "tree": new_tree['sha'],
+        "parents": [parent_sha]
+    }
+    new_commit = api_call('git/commits', 'POST', commit_data)
+
+    # 更新 ref
+    ref_data = {"sha": new_commit['sha'], "force": True}
+    req = urllib.request.Request(
+        f'https://api.github.com/repos/{repo}/git/refs/heads/master',
+        data=json.dumps(ref_data).encode(),
+        headers=headers,
+        method='PATCH'
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return True
+
+
+def main():
+    """主函数"""
+    print(f"[TIME] 开始更新彩票数据 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+    try:
+        # 获取数据
+        print("[FETCH] 正在获取大乐透数据...")
+        dlt_data = fetch_dlt_data()
+        print(f"   获取到 {len(dlt_data)} 期数据")
+
+        print("[FETCH] 正在获取双色球数据...")
+        ssq_data = fetch_ssq_data()
+        print(f"   获取到 {len(ssq_data)} 期数据")
+
+        if not dlt_data and not ssq_data:
+            print("[ERROR] 所有数据获取失败")
+            return False
+
+        if not dlt_data:
+            print("[WARN] 大乐透数据获取失败，仅更新双色球")
+        if not ssq_data:
+            print("[WARN] 双色球数据获取失败，仅更新大乐透")
+
+        # 更新本地文件
+        print("[UPDATE] 正在更新本地文件...")
+        update_lottery_logic(dlt_data, ssq_data)
+        print("   本地文件更新完成")
+
+        # 推送到GitHub
+        print("[PUSH] 正在推送到GitHub...")
+        push_to_github()
+        print("   GitHub推送成功")
+
+        print(f"[OK] 更新完成！大乐透: {len(dlt_data)}期, 双色球: {len(ssq_data)}期")
+        return True
+
+    except Exception as e:
+        print(f"[ERROR] 更新失败: {e}")
+        return False
+
+
+if __name__ == '__main__':
+    main()
