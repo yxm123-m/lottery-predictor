@@ -44,31 +44,36 @@ def fetch_dlt_data(count=100):
 
 
 def fetch_ssq_data(count=100):
-    """获取双色球数据（从中国福彩官网）"""
-    url = f"https://www.cwl.gov.cn/cwl_admin/front/cwlkj/search/kjxx/findDrawNotice?name=ssq&issueCount={count}"
+    """获取双色球数据（从500彩票网）"""
+    url = "https://datachart.500.com/ssq/history/newinc/history.php?start=26001&end=26200"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-        'Referer': 'https://www.cwl.gov.cn/ygkj/wqkjgg/ssq/',
-        'Accept': 'application/json, text/javascript, */*; q=0.01',
-        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-        'X-Requested-With': 'XMLHttpRequest',
     }
 
     req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=15) as response:
-        data = json.loads(response.read().decode('utf-8'))
+        html = response.read().decode('utf-8', errors='ignore')
+
+    tbody_match = re.search(r'<tbody[^>]*>(.*?)</tbody>', html, re.DOTALL)
+    if not tbody_match:
+        return []
+
+    rows = re.findall(r'<tr[^>]*>(.*?)</tr>', tbody_match.group(1), re.DOTALL)
 
     ssq_data = []
-    for item in data['result']:
-        if item['code'].startswith('2026'):
-            red = [int(x) for x in item['red'].split(',')]
-            blue = int(item['blue'])
-            issue = item['code'][-3:]
-            ssq_data.append({
-                'issue': issue,
-                'front': sorted(red),
-                'back': [blue]
-            })
+    for row in rows:
+        cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.DOTALL)
+        if len(cells) >= 8:
+            cell_text = [re.sub(r'<[^>]+>', '', c).strip() for c in cells]
+            issue = cell_text[1]
+            if issue.startswith('26'):
+                front = sorted([int(cell_text[2]), int(cell_text[3]), int(cell_text[4]), int(cell_text[5]), int(cell_text[6]), int(cell_text[7])])
+                back = [int(cell_text[8])]
+                ssq_data.append({
+                    'issue': issue[-3:],
+                    'front': front,
+                    'back': back
+                })
 
     return ssq_data
 
@@ -180,25 +185,34 @@ def main():
     """主函数"""
     print(f"[TIME] 开始更新彩票数据 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
+    dlt_data = []
+    ssq_data = []
+
+    # 分别获取数据，互不影响
     try:
-        # 获取数据
         print("[FETCH] 正在获取大乐透数据...")
         dlt_data = fetch_dlt_data()
         print(f"   获取到 {len(dlt_data)} 期数据")
+    except Exception as e:
+        print(f"[WARN] 大乐透数据获取失败: {e}")
 
+    try:
         print("[FETCH] 正在获取双色球数据...")
         ssq_data = fetch_ssq_data()
         print(f"   获取到 {len(ssq_data)} 期数据")
+    except Exception as e:
+        print(f"[WARN] 双色球数据获取失败: {e}")
 
-        if not dlt_data and not ssq_data:
-            print("[ERROR] 所有数据获取失败")
-            return False
+    if not dlt_data and not ssq_data:
+        print("[ERROR] 所有数据获取失败")
+        return False
 
-        if not dlt_data:
-            print("[WARN] 大乐透数据获取失败，仅更新双色球")
-        if not ssq_data:
-            print("[WARN] 双色球数据获取失败，仅更新大乐透")
+    if not dlt_data:
+        print("[WARN] 大乐透数据获取失败，仅更新双色球")
+    if not ssq_data:
+        print("[WARN] 双色球数据获取失败，仅更新大乐透")
 
+    try:
         # 更新本地文件
         print("[UPDATE] 正在更新本地文件...")
         update_lottery_logic(dlt_data, ssq_data)
